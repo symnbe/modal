@@ -1,6 +1,6 @@
 body{
   font-size: 14px;
-  
+
 }
 
 #open, #close{
@@ -32,4 +32,12 @@ body{
   left: 0;
   right: 0;
   margin:0 auto;
+}
+
+#mask.hidden{
+  display: none;
+}
+
+#modal.hidden{
+  transform: translate(0, -500px);
 }
